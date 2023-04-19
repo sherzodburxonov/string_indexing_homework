@@ -6,4 +6,9 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>=n:
+        x=s[n]
+    else :
+        x=False 
+    return x
+print(main("good",3))
