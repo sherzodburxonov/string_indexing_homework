@@ -6,5 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return  s.count("*",0,6)
+print(main("2*4*"))
         
